@@ -1,7 +1,7 @@
 /*
 
 ToDo
-Who fucking knows
+Who really knows
 */
 var mutationRate = 0.05;
 var data = 0;
