@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bradshaw Design</title>
+<link href="main.css" rel="stylesheet" type="text/css">
+</head>
+<body onload="mywidth()"onresize="mywidth()">
+  <br><hr>
+<!-- Main Container -->
+<center>
+<div class="container"> 
+  <!-- Header -->
+  <header class="header">
+    <img src="mainpicture.png" style="width:500;">
+    <h4 class="logo"><center>
+      <a href="home.html">
+      <button  id="b1" class="button1">Home</button></a>
+      <a href="main_finishes.html"><button id="b2" class="button1">Finishes</button></a>
+      <button id="b3" class="button1">Videos</button>
+      <button id="b4" class="button1">About Us</button></h4></center>
+
+<script> function mywidth(){
+var x=window.outerWidth*0.20;
+document.getElementById("b1").style.width = x + "px" ;
+document.getElementById("b2").style.width = x + "px" ;
+document.getElementById("b3").style.width = x + "px" ;
+document.getElementById("b4").style.width = x + "px" ;
+}
+</script>
+
+<hr>
+
+<div class="gallery">
+
+<div class="thumbnail"><div class="baby"> <a href="#"><img src="Pictures/desk/DS101.jpg" alt=""  class="newcard"/></div></a>
+      <h4><a href="desk.html" target=""><div class="button">DS101
+      </a></div></h4>
+      <p class="tag"></p>
+      <p class="text_column"></p>
+    </div>
+
+  </div>
